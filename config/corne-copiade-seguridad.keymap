@@ -54,12 +54,12 @@
 // -----------------------------------------------------------------------------------------
 // |  ESC |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
 // | SHFT*|  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-// | CTRL |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | SHFT |
+// | CTRL |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ALT  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
             bindings = <
    &kp ESC       &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
    &td_shft_caps &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-   &kp LCTRL     &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
+   &kp LCTRL     &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp LALT
                  &kp LGUI &lt 1 TAB &kp SPACE    &kp RET &lt 2 DEL &kp RALT
             >;
         };
@@ -69,12 +69,12 @@
 // -----------------------------------------------------------------------------------------
 // |  `   |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  |  -   |
 // | TRNS | NUBS| F2  | F5  | F12 |  ]  |   | NONE|  UP  |  [  | HOME| NONE|  \   |
-// | TRNS | ALT | SCRL|MOUSE| LCLK| RCLK|   | LFT | DWN  | RGT | END | NONE| TRNS |
+// | F11  | ALT | SCRL|MOUSE| LCLK| RCLK|   | LFT | DWN  | RGT | END | NONE| TRNS |
 //                    | GUI | TRNS| TRNS|   | TRNS| ADJ  | TRNS|
             bindings = <
    &kp GRAVE  &kp N1      &kp N2 &kp N3 &kp N4 &kp N5      &kp N6   &kp N7   &kp N8    &kp N9    &kp N0 &kp MINUS
    &trans     &kp NON_US_BSLH &kp F2 &kp F5 &kp F12 &kp RBKT    &none    &kp UP   &kp LBKT  &kp HOME  &none  &kp BSLH
-   &trans     &kp LALT    &mo 5  &mo 4  &mkp LCLK &mkp RCLK  &kp LEFT &kp DOWN &kp RIGHT &kp END   &none  &trans
+   &kp F11    &kp LALT    &mo 5  &mo 4  &mkp LCLK &mkp RCLK  &kp LEFT &kp DOWN &kp RIGHT &kp END   &none  &trans
                           &kp LGUI &trans &trans           &trans   &lt 3 DEL &trans
             >;
         };
