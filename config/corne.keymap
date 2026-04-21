@@ -21,6 +21,8 @@
         
         // Configuración de movimiento del Mouse (Aceleración)
         mmv {
+            compatible = "zmk,behavior-mouse-move";
+            #binding-cells = <2>;
             acceleration-exponent = <1>;
             time-to-max-speed-ms = <300>;
             delay-ms = <0>;
@@ -28,6 +30,8 @@
 
         // Configuración de Scroll
         msc {
+            compatible = "zmk,behavior-mouse-scroll";
+            #binding-cells = <2>;
             acceleration-exponent = <0>;
             time-to-max-speed-ms = <0>;
             delay-ms = <0>;
