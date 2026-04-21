@@ -82,8 +82,8 @@
         raise_layer {
             display-name = "Raise";
 // -----------------------------------------------------------------------------------------
-// | ESC  | NONE| STOP| PREV| PLAY| NEXT|   | NONE|  7  |  8  |  9  | NONE| PSCRN|
-// | TRNS | F11 | F4  | MUTE| VDN | VUP |   | NONE|  4  |  5  |  6  | NONE| NONE |
+// | ESC  | NONE| STOP| PREV| PLAY| NEXT|   | F11|  7  |  8  |  9  | NONE| PSCRN|
+// | TRNS | F10 | F4  | MUTE| VDN | VUP |   | NONE|  4  |  5  |  6  | NONE| NONE |
 // | TRNS | ALT | NONE| NONE| NONE| NONE|   |  0  |  1  |  2  |  3  | NONE| NONE |
 //                    | GUI | ADJ | TRNS|   | TRNS| TRNS| TRNS|
             bindings = <
